@@ -43,6 +43,6 @@ jobs:
         run:  jbang --java 17 properties@jbangdev java.vendor.version
       - name: test output 21
         run:  jbang --java 21 properties@jbangdev java.vendor.version
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
+      #- name: Setup upterm session
+      #  uses: lhotari/action-upterm@v1
       
